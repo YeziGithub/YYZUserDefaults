@@ -1,5 +1,5 @@
 # YYZUserDefaults
-UserDefaults的扩展
+UserDefaults的扩展、协议及协议扩展、枚举、结构体、泛型使用
 
 ## 使用方式：
 
