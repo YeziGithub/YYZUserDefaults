@@ -1,7 +1,7 @@
 # YYZUserDefaults
 UserDefaults的扩展
 
-使用方式：
+## 使用方式：
 
 1、将YYZUserDefaultsExt.swift添加至项目中
 
@@ -12,6 +12,7 @@ extension UserDefaults{
 
 示例：
 
+```
 extension UserDefaults {
 
     struct account: YYZUserDefaultsExt {
@@ -22,6 +23,7 @@ extension UserDefaults {
         } 
     }
 }
+```
 
 3、方法使用示例：
 
