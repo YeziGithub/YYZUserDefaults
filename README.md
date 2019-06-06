@@ -25,11 +25,12 @@ extension UserDefaults {
 ```
 
 3、方法使用示例：
-
-```UserDefaults.account.set("13333333333", forKey: .phone)```
-
-
-```UserDefaults.account.get(valueType: .string, forKey: .isLogin)```
-
-
-```UserDefaults.account.removeObject(forkey: .phone)```
+```
+UserDefaults.account.set("13333333333", forKey: .phone)
+```
+```
+UserDefaults.account.get(valueType: .string, forKey: .isLogin)
+```
+```
+UserDefaults.account.removeObject(forkey: .phone)
+```
