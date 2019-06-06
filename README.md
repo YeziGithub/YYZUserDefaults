@@ -8,16 +8,17 @@ UserDefaults的扩展
 2、在extension UserDefaults{添加需要本地化信息}
 
 示例：
-extension UserDefaults {
-    struct account: YYZUserDefaultsExt {
-        enum yyKeys: String {
-            case phone
-            case isLogin
-            case name
-        }
-        
-    }
-}
+
+ extension UserDefaults {
+ 
+     struct account: YYZUserDefaultsExt {
+         enum yyKeys: String {
+             case phone
+             case isLogin
+             case name
+         } 
+     }
+ }
 
 
 3、方法使用示例：
